@@ -1,0 +1,32 @@
+﻿@model CarRental.Core.Entities.Car
+
+<div class="container mt-4">
+    <h2>Araç Güncelle</h2>
+    <form asp-action="Update" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DailyRate" class="form-label"></label>
+            <input asp-for="DailyRate" class="form-control" />
+            <span asp-validation-for="DailyRate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CategoryId" class="form-label">Kategori</label>
+            <select asp-for="CategoryId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.CategoryList, "Id", "Name"))">
+                <option value="">Kategori Seçin</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-warning">Güncelle</button>
+        <a asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+    </form>
+</div>

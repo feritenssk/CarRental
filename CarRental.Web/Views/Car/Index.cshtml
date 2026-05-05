@@ -1,0 +1,37 @@
+﻿@model IEnumerable<CarRental.Core.Entities.Car>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Araç Listesi</h2>
+        <a asp-action="Create" class="btn btn-primary">Yeni Araç Ekle</a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Araç Adı</th>
+                <th>Açıklama</th>
+                <th>Günlük Ücret</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@car.Id</td>
+                    <td>@car.Name</td>
+                    <td>@car.Description</td>
+                    <td>@car.DailyRate</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@car.Id"
+                           class="btn btn-warning btn-sm">Güncelle</a>
+                        <a asp-action="Delete" asp-route-id="@car.Id"
+                           class="btn btn-danger btn-sm">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

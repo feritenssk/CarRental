@@ -1,0 +1,27 @@
+﻿@model CarRental.Core.Entities.Car
+
+<div class="container mt-4">
+    <h2>Araç Sil</h2>
+    <p>Bu aracı silmek istediğinize emin misiniz?</p>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Araç Adı</th>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <th>Açıklama</th>
+            <td>@Model.Description</td>
+        </tr>
+        <tr>
+            <th>Günlük Ücret</th>
+            <td>@Model.DailyRate</td>
+        </tr>
+    </table>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Evet, Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+    </form>
+</div>
