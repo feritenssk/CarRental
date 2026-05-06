@@ -138,3 +138,6 @@ C:\Users\Seda\source\repos\CarRental\CarRental.Web\obj\Debug\net8.0\refint\CarRe
 C:\Users\Seda\source\repos\CarRental\CarRental.Web\obj\Debug\net8.0\CarRental.Web.pdb
 C:\Users\Seda\source\repos\CarRental\CarRental.Web\obj\Debug\net8.0\CarRental.Web.genruntimeconfig.cache
 C:\Users\Seda\source\repos\CarRental\CarRental.Web\obj\Debug\net8.0\ref\CarRental.Web.dll
+C:\Users\Seda\source\repos\CarRental\CarRental.Web\bin\Debug\net8.0\CarRental.Application.dll
+C:\Users\Seda\source\repos\CarRental\CarRental.Web\bin\Debug\net8.0\CarRental.Application.pdb
+C:\Users\Seda\source\repos\CarRental\CarRental.Web\obj\Debug\net8.0\CarRental.Web.sourcelink.json

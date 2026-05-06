@@ -1,4 +1,6 @@
+using CarRental.Application.Common.Interfaces;
 using CarRental.Infrastructure.Data;
+using CarRental.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 namespace CarRental.Web
 
@@ -15,6 +17,10 @@ namespace CarRental.Web
             builder.Services.AddDbContext<AppDbContext>(options =>
               options.UseSqlServer(builder.Configuration
         .GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<ICarRepository, CarRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 
             var app = builder.Build();
 

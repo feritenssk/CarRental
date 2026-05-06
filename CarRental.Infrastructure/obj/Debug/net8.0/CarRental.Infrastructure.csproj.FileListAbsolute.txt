@@ -15,3 +15,6 @@ C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\r
 C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
 C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.genruntimeconfig.cache
 C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll
+C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Application.dll
+C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Application.pdb
+C:\Users\Seda\source\repos\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.sourcelink.json

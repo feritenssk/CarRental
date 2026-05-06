@@ -1,81 +1,70 @@
-﻿using CarRental.Core.Entities;
-using CarRental.Infrastructure.Data;
+﻿using CarRental.Application.Common.Interfaces;
+using CarRental.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarRental.Web.Controllers
 {
     public class CarController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly ICarRepository _carRepo;
+        private readonly ICategoryRepository _categoryRepo;
 
-        public CarController(AppDbContext db)
+        public CarController(ICarRepository carRepo, ICategoryRepository categoryRepo)
         {
-            _db = db;
+            _carRepo = carRepo;
+            _categoryRepo = categoryRepo;
         }
+
         public IActionResult Index()
         {
-            var cars = _db.Cars.ToList();
+            var cars = _carRepo.GetAll();
             return View(cars);
         }
-
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.CategoryList = _db.Categories.ToList();
+            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
             return View();
         }
 
         [HttpPost]
         public IActionResult Create(Car car)
         {
-            if (_db.Cars.Any(c => c.Name == car.Name))
-            {
-                ModelState.AddModelError("Name", "Bu araç zaten mevcut!");
-            }
-
             if (ModelState.IsValid)
             {
-                _db.Cars.Add(car);
-                _db.SaveChanges();
+                _carRepo.Add(car);
+                _carRepo.Save();
                 return RedirectToAction("Index");
             }
-
-            ViewBag.CategoryList = _db.Categories.ToList();
+            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
             return View(car);
         }
 
         [HttpGet]
         public IActionResult Update(int id)
         {
-            var car = _db.Cars.FirstOrDefault(c => c.Id == id);
-            if (car == null)
-            {
-                return NotFound();
-            }
-            ViewBag.CategoryList = _db.Categories.ToList();
+            var car = _carRepo.Get(c => c.Id == id);
+            if (car == null) return NotFound();
+            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
             return View(car);
         }
 
         [HttpPost]
         public IActionResult Update(Car car)
         {
-
-
             if (ModelState.IsValid)
             {
-                _db.Cars.Update(car);
-                _db.SaveChanges();
+                _carRepo.Update(car);
+                _carRepo.Save();
                 return RedirectToAction("Index");
             }
-
-            ViewBag.CategoryList = _db.Categories.ToList();
+            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
             return View(car);
         }
-
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var car = _db.Cars.FirstOrDefault(c => c.Id == id);
+            var car = _carRepo.Get(c => c.Id == id);
             if (car == null)
             {
                 return NotFound();
@@ -86,12 +75,13 @@ namespace CarRental.Web.Controllers
         [HttpPost]
         public IActionResult Delete(Car car)
         {
-            
-                _db.Cars.Remove(car);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            
+            var carFromDb = _carRepo.Get(c => c.Id == car.Id);
+            if (carFromDb != null)
+            {
+                _carRepo.Remove(carFromDb);
+                _carRepo.Save();
+            }
+            return RedirectToAction("Index");
         }
-
     }
 }
