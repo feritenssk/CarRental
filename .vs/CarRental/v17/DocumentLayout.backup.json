@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.infrastructure\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,20 +64,20 @@
               "RelativeDocumentMoniker": "CarRental.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CarRental.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-06T23:40:23.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Notifications.cshtml",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
               "RelativeDocumentMoniker": "CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
               "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
               "RelativeToolTip": "CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-06T23:39:15.952Z",
               "EditorCaption": ""
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "CarRental.Web\\Controllers\\CarController.cs",
@@ -123,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Program.cs",
               "RelativeDocumentMoniker": "CarRental.Web\\Program.cs",
               "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Program.cs",
               "RelativeToolTip": "CarRental.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T22:55:33.772Z",
               "EditorCaption": ""
