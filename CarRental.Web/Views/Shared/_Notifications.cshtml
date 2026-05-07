@@ -1,0 +1,20 @@
+﻿@{
+    var success = TempData["success"] as string;
+    var error = TempData["error"] as string;
+}
+@if (success != null)
+{
+    <script>
+        $(document).ready(function () {
+            toastr.success('@success');
+        });
+    </script>
+}
+@if (error != null)
+{
+    <script>
+        $(document).ready(function () {
+            toastr.error('@error');
+        });
+    </script>
+}

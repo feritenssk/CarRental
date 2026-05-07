@@ -23,7 +23,7 @@ namespace CarRental.Web.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
+            ViewBag.CategoryList = _categoryRepo.GetAll(); 
             return View();
         }
 
@@ -34,10 +34,13 @@ namespace CarRental.Web.Controllers
             {
                 _carRepo.Add(car);
                 _carRepo.Save();
+                TempData["success"] = "Araç başarıyla eklendi!";
                 return RedirectToAction("Index");
             }
-            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
+            ViewBag.CategoryList = _categoryRepo.GetAll(); 
             return View(car);
+
+          
         }
 
         [HttpGet]
@@ -45,7 +48,7 @@ namespace CarRental.Web.Controllers
         {
             var car = _carRepo.Get(c => c.Id == id);
             if (car == null) return NotFound();
-            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
+            ViewBag.CategoryList = _categoryRepo.GetAll(); 
             return View(car);
         }
 
@@ -56,10 +59,13 @@ namespace CarRental.Web.Controllers
             {
                 _carRepo.Update(car);
                 _carRepo.Save();
+                TempData["success"] = "Araç başarıyla güncellendi!";
                 return RedirectToAction("Index");
             }
-            ViewBag.CategoryList = _categoryRepo.GetAll(); // ← buraya ekle
+            ViewBag.CategoryList = _categoryRepo.GetAll(); 
             return View(car);
+
+         
         }
         [HttpGet]
         public IActionResult Delete(int id)
@@ -80,8 +86,12 @@ namespace CarRental.Web.Controllers
             {
                 _carRepo.Remove(carFromDb);
                 _carRepo.Save();
+                TempData["success"] = "Araç başarıyla silindi!";
+                
             }
             return RedirectToAction("Index");
+
+          
         }
     }
 }

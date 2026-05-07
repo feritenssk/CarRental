@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Seda\\source\\repos\\CarRental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.web\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{7073759F-CD8E-4A83-837F-8A68EB39F05F}|CarRental.Web\\CarRental.Web.csproj|solutionrelative:carrental.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.infrastructure\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|solutionrelative:carrental.infrastructure\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.infrastructure\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|solutionrelative:carrental.infrastructure\\repository\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4522AAFA-E0D9-422F-BC12-978B14524771}|CarRental.Application\\CarRental.Application.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.application\\common\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4522AAFA-E0D9-422F-BC12-978B14524771}|CarRental.Application\\CarRental.Application.csproj|solutionrelative:carrental.application\\common\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BABFBC81-89D1-4FA3-9E06-08D03757F120}|CarRental.Infrastructure\\CarRental.Infrastructure.csproj|c:\\users\\seda\\source\\repos\\carrental\\carrental.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,37 +59,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarRental.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarRental.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:40:23.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Notifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeDocumentMoniker": "CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeToolTip": "CarRental.Web\\Views\\Shared\\_Notifications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:39:15.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CarRental.Infrastructure\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "CarRental.Infrastructure\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:06:02.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Application\\Common\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CarRental.Application\\Common\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Application\\Common\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "CarRental.Application\\Common\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:03:15.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "CarRental.Web\\Controllers\\CarController.cs",
               "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Controllers\\CarController.cs",
               "RelativeToolTip": "CarRental.Web\\Controllers\\CarController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv1YAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T22:58:04.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Program.cs",
               "RelativeDocumentMoniker": "CarRental.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Program.cs*",
-              "RelativeToolTip": "CarRental.Web\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Web\\Program.cs",
+              "RelativeToolTip": "CarRental.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T22:55:33.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\CarRepository.cs",
               "RelativeDocumentMoniker": "CarRental.Infrastructure\\Repository\\CarRepository.cs",
-              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\CarRepository.cs*",
-              "RelativeToolTip": "CarRental.Infrastructure\\Repository\\CarRepository.cs*",
+              "ToolTip": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\CarRepository.cs",
+              "RelativeToolTip": "CarRental.Infrastructure\\Repository\\CarRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T22:53:37.447Z",
@@ -81,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Infrastructure\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "CarRental.Infrastructure\\Repository\\Repository.cs",
@@ -94,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ICarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Application\\Common\\Interfaces\\ICarRepository.cs",
               "RelativeDocumentMoniker": "CarRental.Application\\Common\\Interfaces\\ICarRepository.cs",
@@ -107,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Seda\\source\\repos\\CarRental\\CarRental.Application\\Common\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "CarRental.Application\\Common\\Interfaces\\IRepository.cs",
